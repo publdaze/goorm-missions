@@ -28,4 +28,9 @@
 
 ### 온라인 쇼핑 사이트 시맨틱 태그 분석 결과 정리 문서
 
+![header](https://gist.github.com/user-attachments/assets/75d02a2b-9a9f-489e-bde6-ed7b34898479)
+![footer](https://gist.github.com/user-attachments/assets/9faf911f-1cd1-4cd6-a654-d3f7d933b61b)
+![nav](https://gist.github.com/user-attachments/assets/428b4579-4743-4630-b995-80a5469d54ce)
+![section](https://gist.github.com/user-attachments/assets/dcf4329a-5dd0-4049-a95b-69ab688f17a6)
+
 ### git commit 내역 스크린샷
