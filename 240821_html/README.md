@@ -20,6 +20,12 @@
 
 ### 로그인 화면, 회원가입 화면 구현한 코드 파일, 웹 페이지 스크린샷
 
+[코드 파일](/240821_html/다양한입력폼만들기)
+
+![로그인 화면 스크린샷](https://gist.github.com/user-attachments/assets/a20e808a-5711-4fc1-88f7-c77ba890aad6)
+
+![회원가입 화면 스크린샷](https://gist.github.com/user-attachments/assets/119ca50a-639d-46ee-b27c-6e4eed399404)
+
 ### 온라인 쇼핑 사이트 시맨틱 태그 분석 결과 정리 문서
 
 ### git commit 내역 스크린샷
