@@ -14,6 +14,10 @@
 
 ### table, tr, th, tod 태그가 포함된 코드 파일, 웹 페이지 스크린샷
 
+[코드 파일](/240821_html/table기본/index.html)
+
+![table, tr, th, tod 태그가 포함된 코드 파일, 웹 페이지 스크린샷](https://gist.github.com/user-attachments/assets/f0ba442f-7c90-48bf-b42f-67d7a03991ed)
+
 ### 로그인 화면, 회원가입 화면 구현한 코드 파일, 웹 페이지 스크린샷
 
 ### 온라인 쇼핑 사이트 시맨틱 태그 분석 결과 정리 문서
