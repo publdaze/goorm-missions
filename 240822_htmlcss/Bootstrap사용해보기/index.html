@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 사용해보기</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card-container {
+        display: flex;
+        gap: 20px;
+        padding: 2rem 0;
+      }
+      .btn-primary {
+        --bs-btn-color: #ffffff;
+        --bs-btn-bg: #35c5d5;
+        --bs-btn-border-color: #35c6d6;
+        --bs-btn-hover-bg: #2da4b1;
+        --bs-btn-hover-border-color: #32c1d1;
+        --bs-btn-active-bg: #1a6168;
+        --bs-btn-active-border-color: #24868f;
+        --bs-btn-disabled-bg: #7cbcc4;
+        --bs-btn-disabled-border-color: #78b6be;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://goormkdx.notion.site/React-e43ba6f2887343c9942940c5ed1668f6">
+            <img
+              src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2Ff9d95b3c-fad8-4ab2-a6e9-a56124ea8be0%2Ffavicon.png?table=block&id=e43ba6f2-8873-43c9-9429-40c5ed1668f6&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=250&userId=&cache=v2"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            React 기반 프론트엔드 개발자 취업 특화 과정
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container card-container">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2F1607e0c8-430b-4d0e-b6b7-4f530d97f5ea%2F%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25AB%25E1%2584%2590%25E1%2585%25B3%25E1%2584%258B%25E1%2585%25A6%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3-1.png?table=block&id=040d00d7-2d0a-4ce9-97f3-71dcb46eb16a&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=2000&userId=&cache=v2"
+            class="card-img-top"
+            alt="프론트엔드 개발자 과정 1회차 배너"
+          />
+          <div class="card-body">
+            <h5 class="card-title">React 기반 프론트엔드 개발자 취업 특화 과정</h5>
+            <p class="card-text">1회차</p>
+            <a href="https://goormkdx.notion.site/1-040d00d72d0a4ce997f371dcb46eb16a" class="btn btn-primary"
+              >바로가기</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2F3b14332c-414c-4612-b214-72cb8d0f9ea0%2F%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25AB%25E1%2584%2590%25E1%2585%25B3%25E1%2584%258B%25E1%2585%25A6%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3.png?table=block&id=e43ba6f2-8873-43c9-9429-40c5ed1668f6&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=2000&userId=&cache=v2"
+            class="card-img-top placeholder"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-10"></span>
+              <span class="placeholder col-5"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-4"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-4" aria-disabled="true"></a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2F3b14332c-414c-4612-b214-72cb8d0f9ea0%2F%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25AB%25E1%2584%2590%25E1%2585%25B3%25E1%2584%258B%25E1%2585%25A6%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3.png?table=block&id=e43ba6f2-8873-43c9-9429-40c5ed1668f6&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=2000&userId=&cache=v2"
+            class="card-img-top placeholder"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-10"></span>
+              <span class="placeholder col-5"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-4"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-4" aria-disabled="true"></a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2F3b14332c-414c-4612-b214-72cb8d0f9ea0%2F%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25AB%25E1%2584%2590%25E1%2585%25B3%25E1%2584%258B%25E1%2585%25A6%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3.png?table=block&id=e43ba6f2-8873-43c9-9429-40c5ed1668f6&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=2000&userId=&cache=v2"
+            class="card-img-top placeholder"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-10"></span>
+              <span class="placeholder col-5"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-4"></span>
+            </p>
+            <a class="btn btn-primary disabled placeholder col-4" aria-disabled="true"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-white text-center py-3 fixed-bottom">
+      <p class="text-center text-muted">© 2024 9oormthon DEEP DIVE</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
