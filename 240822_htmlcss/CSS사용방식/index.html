@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 작성 방식 실습</title>
+    <!-- 1. (CSS) external 방식-외부파일 연결 -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- 2. (CSS) internal 방식-태그 사용 -->
+    <style type="text/css">
+      #internal {
+        color: rgb(255, 215, 0, 0.8);
+        background-color: #00008b;
+        padding: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>
+        <p class="external">external 방식-외부파일 연결</p>
+      </li>
+      <li><p id="internal">internal 방식-태그 사용</p></li>
+      <li>
+        <!-- 3. (CSS) inline 방식-html 태그 내 사용 -->
+        <div style="font-size: 24px">
+          <p style="color: hwb(271 17% 11%); padding: 10px; font-size: 1em">inline 방식-html 태그 내 사용</p>
+          <p style="color: hwb(271 17% 11%); padding: 10px; font-size: 1rem">inline 방식-html 태그 내 사용</p>
+        </div>
+      </li>
+    </ol>
+  </body>
+</html>
