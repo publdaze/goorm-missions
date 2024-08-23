@@ -1,10 +1,10 @@
 export default class Component {
   $target;
-  $props;
+  props;
 
-  constructor($target, $props) {
+  constructor($target, props) {
     this.$target = $target;
-    this.$props = $props;
+    this.props = props;
     this.render();
   }
 
