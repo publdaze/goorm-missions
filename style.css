@@ -1,5 +1,6 @@
 @import "node_modules/open-props/open-props.min.css";
 @import "./css/header.css";
+@import "./css/footer.css";
 
 @font-face {
   font-family: "DungGeunMo";
@@ -10,6 +11,7 @@
 
 body {
   font-family: "DungGeunMo", var(--font-system-ui);
+  margin-bottom: 20px; /* footer 공간 확보 */
 }
 
 a,
