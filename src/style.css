@@ -1,0 +1,24 @@
+@import "/node_modules/open-props/open-props.min.css";
+@import "./css/header.css";
+@import "./css/footer.css";
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "DungGeunMo", var(--font-system-ui);
+  margin-bottom: 20px; /* footer 공간 확보 */
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "goorm-missions",
+  "version": "1.0.0",
+  "description": "구름톤 딥다이브 미션을 관리하는 레포입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publdaze/goorm-missions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/publdaze/goorm-missions/issues"
+  },
+  "homepage": "https://github.com/publdaze/goorm-missions#readme",
+  "dependencies": {
+    "open-props": "^1.7.5"
+  }
+}
