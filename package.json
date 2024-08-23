@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/publdaze/goorm-missions/issues"
   },
-  "homepage": "https://github.com/publdaze/goorm-missions#readme"
+  "homepage": "https://github.com/publdaze/goorm-missions#readme",
+  "dependencies": {
+    "open-props": "^1.7.5"
+  }
 }
