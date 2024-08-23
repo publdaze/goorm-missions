@@ -11,3 +11,11 @@ body {
   font-family: "DungGeunMo", var(--font-system-ui);
 }
 
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
