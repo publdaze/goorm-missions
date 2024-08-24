@@ -1,6 +1,7 @@
 @import "/node_modules/open-props/open-props.min.css";
 @import "./css/header.css";
 @import "./css/footer.css";
+@import "./css/card.css";
 
 @font-face {
   font-family: "DungGeunMo";
