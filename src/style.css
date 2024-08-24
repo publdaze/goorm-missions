@@ -9,9 +9,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "goorm-sans-code";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-code.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "goorm-sans-bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
-  font-family: "DungGeunMo", var(--font-system-ui);
+  font-family: "goorm-sans-code", var(--font-system-ui);
   margin-bottom: 20px; /* footer 공간 확보 */
+}
+
+.title {
+  font-family: "goorm-sans-bold", var(--font-system-ui);
 }
 
 a,
