@@ -33,6 +33,16 @@ body {
   font-family: "goorm-sans-bold", var(--font-system-ui);
 }
 
+.scroll-bar-container {
+  width: 70rem;
+}
+
+.scroll-bar {
+  width: 100%;
+  height: 5px;
+  background-color: var(--cyan-4);
+}
+
 a,
 a:link,
 a:visited,
@@ -40,4 +50,65 @@ a:active,
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+blockquote {
+  padding: 1rem;
+  display: block;
+  border-radius: var(--border-size-3);
+  background-color: var(--stone-1);
+  color: var(--stone-8);
+  unicode-bidi: isolate;
+}
+
+.table-component {
+  overflow: auto;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.table-component table {
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.table-component th {
+  border: 1px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 10px;
+}
+
+.table-component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
 }

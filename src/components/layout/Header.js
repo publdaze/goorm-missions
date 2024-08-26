@@ -14,6 +14,9 @@ export default class Header extends Component {
           />
           <span class="site-name">구름톤 딥다이브 미션 저장소</span>
         </a>
+        <div class="scroll-bar-container">
+          <div class="scroll-bar"></div>
+        </div>
       </div>
     `;
   }

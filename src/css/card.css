@@ -38,3 +38,10 @@
 .card-text {
   font-size: var(--font-size-1);
 }
+
+.view-control-btn {
+  background-color: var(--stone-1);
+  border-radius: var(--radius-2);
+  border-color: var(--stone-2);
+  padding: 5px;
+}
