@@ -12,10 +12,13 @@ export default class Component {
     return "";
   }
 
+  setEvent() {}
+
   mounted() {}
 
   render() {
     this.$target.innerHTML = this.template();
+    this.setEvent();
     this.mounted();
   }
 }
