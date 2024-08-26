@@ -22,3 +22,15 @@ export default class App extends Component {
     new Footer($footer);
   }
 }
+
+window.addEventListener("scroll", () => {
+  let currentY = document.documentElement.scrollTop;
+  let totalY = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let percentage = (currentY / totalY) * 100;
+
+  if (percentage < 1) {
+    document.querySelector(".scroll-bar").style.width = `1%`;
+    return;
+  }
+  document.querySelector(".scroll-bar").style.width = `${percentage}%`;
+});

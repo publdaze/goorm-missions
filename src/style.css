@@ -33,6 +33,16 @@ body {
   font-family: "goorm-sans-bold", var(--font-system-ui);
 }
 
+.scroll-bar-container {
+  width: 70rem;
+}
+
+.scroll-bar {
+  width: 100%;
+  height: 5px;
+  background-color: var(--cyan-4);
+}
+
 a,
 a:link,
 a:visited,
