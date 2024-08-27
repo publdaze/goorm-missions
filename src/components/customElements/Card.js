@@ -21,14 +21,16 @@ export default class Card extends HTMLElement {
     return `
       <a href=${href}>
         <div class="card">
-          <img
-            class="card-img-top"
-            src=${imageSrc}
-            alt=${imageAlt}
-          />
-          <div class="card-body">
-            <h5 class="title card-title">${title}</h5>
-            <p class="card-text">${text}</p>
+          <div class="card-inner" role="none">
+            <img
+              class="card-img-top"
+              src=${imageSrc}
+              alt=${imageAlt}
+            />
+            <div class="card-body">
+              <h5 class="title card-title">${title}</h5>
+              <p class="card-text">${text}</p>
+            </div>
           </div>
         </div>
       </a>
