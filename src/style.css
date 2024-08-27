@@ -112,3 +112,49 @@ blockquote {
   color: #000000;
   padding: 10px;
 }
+
+pre {
+  margin: var(--size-2) 0;
+}
+
+pre code {
+  display: block;
+  background-color: var(--stone-11);
+  color: var(--stone-1);
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+  font-size: var(--font-size-1);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  border: 1px solid var(--stone-10);
+  box-shadow: var(--shadow-2);
+}
+
+code {
+  background-color: var(--stone-11);
+  color: var(--stone-1);
+  padding: var(--size-1);
+  border-radius: var(--radius-2);
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+  font-size: var(--font-size-1);
+}
+
+p {
+  margin: 4px;
+}
+
+ul {
+  margin: 4px 0;
+  display: block;
+  list-style-type: disc;
+  padding-inline-start: 15px;
+  unicode-bidi: isolate;
+}
+
+li {
+  padding: 2px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
