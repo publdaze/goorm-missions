@@ -5,7 +5,7 @@ export default class CardContainer extends Component {
   template() {
     return `
       <div class="card-container">
-        <button class="view-control-btn" style="width: 100%">
+        <button class="view-control-btn" style="width: 100%" aria-label="view-control">
           <img class="viewIcon" src="asset/gridView.svg" alt="gridView" />
         </button>  
         <custom-card
