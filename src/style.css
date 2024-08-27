@@ -30,6 +30,14 @@ body {
   margin-bottom: 20px; /* footer 공간 확보 */
 }
 
+body.light {
+  background-color: var(--stone-1);
+}
+
+body.dark {
+  background-color: var(--stone-11);
+}
+
 .title {
   font-family: "goorm-sans-bold", var(--font-system-ui);
 }
