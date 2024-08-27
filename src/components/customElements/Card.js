@@ -19,16 +19,18 @@ export default class Card extends HTMLElement {
 
   template({ href, title, text, imageAlt, imageSrc }) {
     return `
-      <a href=${href}>
+      <a href=${href} title=${href + "페이지로 이동"}>
         <div class="card">
-          <img
-            class="card-img-top"
-            src=${imageSrc}
-            alt=${imageAlt}
-          />
-          <div class="card-body">
-            <h5 class="title card-title">${title}</h5>
-            <p class="card-text">${text}</p>
+          <div class="card-inner" role="none">
+            <img
+              class="card-img-top"
+              src=${imageSrc}
+              alt=${imageAlt}
+            />
+            <div class="card-body">
+              <h5 class="title card-title">${title}</h5>
+              <p class="card-text">${text}</p>
+            </div>
           </div>
         </div>
       </a>

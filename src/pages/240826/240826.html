@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>240826 미션 저장소</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main style="padding: 5rem">
+      <h2>240826 미션 산출물</h2>
+      <h3>(CSS) css 박스 모델 이해하기</h3>
+      <blockquote>margin, padding, border 속성이 포함된 코드 파일, 웹 페이지 스크린샷</blockquote>
+      <pre><code>pre {
+  margin: var(--size-2) 0;
+}
+
+pre code {
+  display: block;
+  background-color: var(--stone-11);
+  color: var(--stone-1);
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+  font-size: var(--font-size-1);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  border: 1px solid var(--stone-10);
+  box-shadow: var(--shadow-2);
+}</code></pre>
+      <img width="600px" src="./image/mission1-1.png" alt="mission1-1" />
+      <img width="600px" src="./image/mission1-2.png" alt="mission1-2" />
+      <img width="600px" src="./image/mission1-3.png" alt="mission1-3" />
+      <h3>(CSS) css 트랜지션과 호버 효과를 적용한 버튼 디자인하기</h3>
+      <blockquote>트랜지션과 호버 효과가 포함된 코드 파일, 웹 페이지 스크린샷</blockquote>
+      <pre><code>.card {
+  max-width: 16rem;
+  height: 16rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border-radius: var(--radius-2);
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: var(--radius-2);
+  color: var(--stone-8);
+  box-shadow: var(--shadow-2);
+}
+
+.card-inner {
+  max-width: 16rem;
+  height: 16rem;
+  background-color: var(--stone-0);
+  transition: all 0.2s;
+}
+
+.card-inner:hover {
+  transform: scale(0.98);
+  border-radius: var(--radius-2);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 255, 117, 0.3);
+}</code></pre>
+      <img width="800px" src="./image/mission2.png" alt="mission2" />
+      <h3>(HTML/CSS) 웹 어플리케이션 동작 방식 이해하기</h3>
+      <blockquote>웹 어플리케이션 동작 방식(HTTP프로토콜, 프론트측 기술, 백엔드측 기술 등) 정리 문서</blockquote>
+
+      <h3>(HTML/CSS) 시맨틱 태그를 사용한 간단한 블로그 페이지 제작하기</h3>
+      <blockquote>블로그 구현한 코드 파일, 웹 페이지 스크린샷</blockquote>
+      <h3>(HTML/CSS) 접근성 속성(예: alt, role 등) 추가하기</h3>
+      <blockquote>접근성 속성이 포함된 코드 파일</blockquote>
+      <ul>
+        <li>
+          <p><code>alt</code>: 이미지에 대한 대체 텍스트를 제공</p>
+        </li>
+        <li>
+          <p><code>role</code>: HTML 요소의 의미를 명확히 하기 위해 사용되며, 특정 역할을 정의</p>
+        </li>
+        <li>
+          <p><code>title</code>: 요소에 마우스를 올리면 툴팁으로 표시되는 추가 정보를 제공</p>
+        </li>
+        <li>
+          <p><code>aria-label</code>: 사용자 인터페이스 요소의 대체 레이블을 제공</p>
+        </li>
+      </ul>
+
+      <p style="padding-top: 10px">title, role 적용</p>
+      <pre><code>&lt;a href=&dollar;{href} title=&dollar;{href + "페이지로 이동"}&gt;
+  &lt;div class="card"&gt;
+    &lt;div class="card-inner" role="none"&gt;
+      &lt;img
+        class="card-img-top"
+        src=&dollar;{imageSrc}
+        alt=&dollar;{imageAlt}
+      /&gt;
+      &lt;div class="card-body"&gt;
+        &lt;h5 class="title card-title"&gt;&dollar;{title}&lt;/h5&gt;
+        &lt;p class="card-text"&gt;&dollar;{text}&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+
+      <p style="padding-top: 10px">alt, aria-label 적용</p>
+      <pre><code>&lt;button class=&quot;view-control-btn&quot; style=&quot;width: 100%&quot; aria-label=&quot;view-control&quot;&gt;
+  &lt;img class=&quot;viewIcon&quot; src=&quot;asset/gridView.svg&quot; alt=&quot;gridView&quot; /&gt;
+&lt;/button&gt;</code></pre>
+    </main>
+  </body>
+</html>
