@@ -2,6 +2,7 @@
 @import "./css/header.css";
 @import "./css/footer.css";
 @import "./css/card.css";
+@import "./css/theme-switch.css";
 
 @font-face {
   font-family: "DungGeunMo";
