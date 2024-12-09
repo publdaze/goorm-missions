@@ -1,4 +1,4 @@
-.footer {
+footer {
   height: 15px;
   display: flex;
   flex-direction: row;
@@ -18,6 +18,6 @@
   color: var(--stone-4);
 }
 
-.copyright {
+#copyright {
   font-size: var(--font-size-0);
 }

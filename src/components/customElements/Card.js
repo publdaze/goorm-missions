@@ -14,13 +14,14 @@ export default class Card extends HTMLElement {
       text: this.getAttribute("text") || "",
       imageAlt: this.getAttribute("imageAlt") || "image",
       imageSrc: this.getAttribute("imageSrc"),
+      disabled: this.getAttribute("disabled") || "",
     });
   }
 
-  template({ href, title, text, imageAlt, imageSrc }) {
+  template({ href, title, text, imageAlt, imageSrc, disabled }) {
     return `
       <a href=${href} title=${href + "페이지로 이동"}>
-        <div class="card">
+        <div class="card" disabled=${disabled}>
           <div class="card-inner" role="none">
             <img
               class="card-img-top"

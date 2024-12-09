@@ -121,6 +121,13 @@ blockquote {
   color: #000000;
   padding: 10px;
 }
+.table-component th:hover {
+  background-color: #ffe0e0;
+}
+
+.table-component td:hover {
+  background-color: #c6c6c6;
+}
 
 pre {
   margin: var(--size-2) 0;
@@ -166,4 +173,10 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
   unicode-bidi: isolate;
+}
+.container {
+  padding: 20px;
+}
+.container p {
+  color: blue;
 }

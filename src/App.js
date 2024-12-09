@@ -7,6 +7,9 @@ export default class App extends Component {
   template() {
     return `
       <header data-component="header" class="header"></header>
+      <div class="scroll-bar-container">
+        <div class="scroll-bar"></div>
+      </div>
       <main data-component="main"></main>
       <footer data-component="footer" class="footer"></footer>
     `;
